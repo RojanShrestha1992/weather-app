@@ -1,0 +1,64 @@
+body {
+  background: #329d9c;
+  z-index: 3;
+}
+.box {
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b4eac2;
+  border-radius: 9px;
+  z-index: 1;
+  box-shadow: 13px 11px 11px -1px #c4cac6;
+  -webkit-box-shadow: 13px 11px 11px -1px #c4cac6;
+  -moz-box-shadow: 13px 11px 11px -1px #7be495;
+}
+.inputData {
+  justify-content: center;
+  display: flex;
+  margin-top: 9px;
+}
+.inputField {
+  padding: 8px 14px;
+  border-radius: 5px;
+  border: 1px solid #545454;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -60px;
+}
+
+.location {
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+.temp {
+  margin-top: 1px;
+  font-size: 2rem;
+}
+.min-max {
+  font-size: 1rem;
+}
+.error {
+  text-align: center;
+  color: #545454;
+  font-size: 16px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: green;
+  border: 2px solid red;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  /* transform: translate(25%, -85%); */
+}

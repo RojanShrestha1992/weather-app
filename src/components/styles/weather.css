@@ -1,0 +1,39 @@
+.weather {
+  display: flex;
+}
+.weather p {
+  text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+#weather-icon {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 140px;
+  margin-left: 25%;
+  height: 140px;
+  position: relative;
+  z-index: -99;
+}
+.Clouds {
+  background: url(../images/clouds.png);
+}
+.Clear {
+  background: url(../images/clear.png);
+}
+.Rain {
+  background: url(../images/rain.png);
+}
+.Drizzle {
+  background: url(../images/drizzle.png);
+}
+.Snow {
+  background: url(../images/snow.png);
+}
+.Mist {
+  background: url(../images/mist.png);
+}
+.Haze {
+  background: url(../images/haze.png);
+}
