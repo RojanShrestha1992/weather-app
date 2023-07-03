@@ -46,6 +46,18 @@ body {
 .min-max {
   font-size: 1rem;
 }
+.error-box {
+  /* border: 2px solid red; */
+  background: url("../images/error.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  margin-left: 25%;
+  height: 140px;
+  position: relative;
+}
 .error {
   text-align: center;
   color: #545454;

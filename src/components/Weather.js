@@ -43,7 +43,9 @@ export default function weather() {
         </div>
 
         {!cityInfo ? (
-          <p className="error"> No data found</p>
+          <div className="error-box">
+            <p className="error"> No data found</p>
+          </div>
         ) : (
           <div>
             <div className="weather">
