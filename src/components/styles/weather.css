@@ -1,67 +1,39 @@
 .weather {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 25px;
 }
-
-/* Vertical weather text */
 .weather p {
+  text-align: center;
   writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-size: 0.9rem;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.85);
+  text-orientation: upright;
 }
-
-/* Weather Icon Container */
 #weather-icon {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 140px;
+  margin-left: 25%;
+  height: 140px;
   position: relative;
-  z-index: 1;
-  animation: float 3s ease-in-out infinite;
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.25));
+  z-index: -99;
 }
-
-/* Floating animation */
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-/* Weather Backgrounds */
 .Clouds {
-  background-image: url("../images/clouds.png");
+  background: url(../images/clouds.png);
 }
 .Clear {
-  background-image: url("../images/clear.png");
+  background: url(../images/clear.png);
 }
 .Rain {
-  background-image: url("../images/rain.png");
+  background: url(../images/rain.png);
 }
 .Drizzle {
-  background-image: url("../images/drizzle.png");
+  background: url(../images/drizzle.png);
 }
 .Snow {
-  background-image: url("../images/snow.png");
+  background: url(../images/snow.png);
 }
 .Mist {
-  background-image: url("../images/mist.png");
+  background: url(../images/mist.png);
 }
 .Haze {
-  background-image: url("../images/haze.png");
+  background: url(../images/haze.png);
 }
